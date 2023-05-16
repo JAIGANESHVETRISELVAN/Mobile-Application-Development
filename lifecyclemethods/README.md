@@ -3,29 +3,29 @@
 
 ## AIM:
 
-To create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio.
+  To create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
 
-Latest Version Android Studio
+  Latest Version Android Studio
 
 ## ALGORITHM:
 
-Step 1: Open Android Stdio and then click on File -> New -> New project.
+  Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as HelloWorld and click Next. 
+  Step 2: Then type the Application name as HelloWorld and click Next. 
 
-Step 3: Then select the Minimum SDK as shown below and click Next.
+  Step 3: Then select the Minimum SDK as shown below and click Next.
 
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+  Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 5: Design layout in activity_main.xml.
+  Step 5: Design layout in activity_main.xml.
 
-Step 6: Display message give in MainActivity file.
+  Step 6: Display message give in MainActivity file.
 
-Step 7: Save and run the application.
+  Step 7: Save and run the application.
 
-##PROGRAM:
+## PROGRAM:
   ##ACTIVITY_MAIN.XML:
   
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -76,44 +76,52 @@ Step 7: Save and run the application.
     import androidx.appcompat.app.AppCompatActivity;
     import android.annotation.SuppressLint;import android.os.Bundle;import 
     android.widget.Toast;
-    public class MainActivity extends AppCompatActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-    Toast.makeText(getApplicationContext(), "On Create Called",
-    Toast.LENGTH_SHORT).show();
-    }
-    protected void onStart() {
-    Toast.makeText(getApplicationContext(), "On Start Called ",
-    Toast.LENGTH_SHORT).show();
-    super.onStart();
-    }
-    protected void onRestart() {
-    super.onRestart();
-    Toast.makeText(getApplicationContext(), "On Restart Called",
-    Toast.LENGTH_SHORT).show();
-    }
-    protected void onResume() {
-    Toast.makeText(getApplicationContext(), "On Resume Called",
-    Toast.LENGTH_SHORT).show();
-    super.onResume();
-    }
-    protected void onStop() {
-    super.onStop();
-    Toast.makeText(getApplicationContext(), "On Stop Called",
-    Toast.LENGTH_SHORT).show();
-    }
-    protected void onPause() {
-    super.onPause();
-    Toast.makeText(getApplicationContext(), "On Pause Called",
-    Toast.LENGTH_SHORT).show();
-    }
-    protected void onDestroy() {
-    super.onDestroy();
-    Toast.makeText(getApplicationContext(), "On Destroy Called",
-    Toast.LENGTH_SHORT).show();
-    }
+    public class MainActivity extends AppCompatActivity 
+    {
+      @Override
+      protected void onCreate(Bundle savedInstanceState) 
+      {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Toast.makeText(getApplicationContext(), "On Create Called",
+        Toast.LENGTH_SHORT).show();
+      }
+      protected void onStart() 
+      {
+        Toast.makeText(getApplicationContext(), "On Start Called ",
+        Toast.LENGTH_SHORT).show();
+        super.onStart();
+      }
+      protected void onRestart()
+      {
+        super.onRestart();
+        Toast.makeText(getApplicationContext(), "On Restart Called",
+        Toast.LENGTH_SHORT).show();
+      }
+      protected void onResume() 
+      {
+        Toast.makeText(getApplicationContext(), "On Resume Called",
+        Toast.LENGTH_SHORT).show();
+        super.onResume();
+      }
+      protected void onStop() 
+      {
+        super.onStop();
+        Toast.makeText(getApplicationContext(), "On Stop Called",
+        Toast.LENGTH_SHORT).show();
+      }
+      protected void onPause()
+      {
+        super.onPause();
+        Toast.makeText(getApplicationContext(), "On Pause Called",
+        Toast.LENGTH_SHORT).show();
+      }
+      protected void onDestroy() 
+      {
+        super.onDestroy();
+        Toast.makeText(getApplicationContext(), "On Destroy Called",
+        Toast.LENGTH_SHORT).show();
+      }
     }
 
 
