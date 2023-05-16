@@ -133,9 +133,32 @@ Registration Number :212221040063
 
  ## OUTPUT
 
+## ACTIVITY_MAIN.XML
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/01.jpeg?raw=true)
 
+## MAINACTIVITY.JAVA
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/02.jpeg?raw=true)
 
+## ONCREATE()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/03.jpeg?raw=true)
 
+## ONSTART()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/04.jpeg?raw=true)
+
+## ONRESTART()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/05.jpeg?raw=true)
+
+## ONRESUME()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/06.jpeg?raw=true)
+
+## ONSTOP()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/07.jpeg?raw=true)
+
+## ONPAUSE()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/08.jpeg?raw=true)
+
+## ONDESTROY()
+![](https://github.com/JAIGANESHVETRISELVAN/Mobile-Application-Development/blob/main/09.jpeg?raw=true)
 
  ## RESULT
 Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is developed and executed successfully.
