@@ -126,9 +126,9 @@
 
 
 
-Developed by:JAIGANESH V
+Developed by: JAIGANESH V
 
-Registration Number :212221040063
+Registration Number : 212221040063
 
 
  ## OUTPUT
